@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplicativo de Dog</title>
+</head>
+<body>
+  <h1>Imagem de cachorro e Data</h1>
+  <div id="dog-container">
+    <img id="dog-image" src="https://cdn2.thedogapi.com/images/quiHq2FiB.jpg" width="680" height="453">
+  </div>
+  <h2>Atualizar as informações do cachorro</h2>
+  <form id="uptade-form">
+    <label for="Nome do cachorro">Nome do cachorro:</label>
+    <input type="text" id="Nome do cachorro" required>
+    <br></br>
+    <label for="dog-breed">Raça:</label>
+    <input type="text" id="dog-breed" name="dog-breed" required>
+    <br></br>
+    <button type="submit">Atualizar informções do cachorro</button>
+  </form>
+  <div id="buttons">
+    <button id="edit-button"></button>
+    <button id="delete-button"></button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
